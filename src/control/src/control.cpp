@@ -104,7 +104,7 @@ public:
     std::bind(&Control::handle_accepted, this, _1));
 
     body_activate_ = this->declare_parameter("body_activate", true);
-    robot_number_ = this->declare_parameter("robot_number", 2);
+    robot_number_ = this->declare_parameter("robot_number", 1);
 
     RCLCPP_INFO(this->get_logger(), "body activate: %d", body_activate_);
     RCLCPP_INFO(this->get_logger(), "robot number: %d", robot_number_);

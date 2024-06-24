@@ -3,7 +3,7 @@
 
 #include "motors_pkg/motors_communication.hpp"
 
-#define PROTOCOL_VERSION 2   
+#define PROTOCOL_VERSION 1   
 
 #if PROTOCOL_VERSION == 2
     #include "motors_pkg/protocol2.h"
